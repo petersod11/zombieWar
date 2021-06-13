@@ -1,6 +1,6 @@
 
 package com.mycompany.zombiewar;
-
+//Creates Soldier object
 public class Soldier extends Survivor {
      public static int count = 0;
     
