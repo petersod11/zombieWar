@@ -1,6 +1,6 @@
 
 package com.mycompany.zombiewar;
-
+//Create CommonInfected object in class zombie
 public class CommonInfected extends Zombie {
     public static int count = 0;
     
