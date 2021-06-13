@@ -1,6 +1,6 @@
 
 package com.mycompany.zombiewar;
-
+// create Tank object of class Zombie
 public class Tank extends Zombie{
     public static int count = 0;
     
