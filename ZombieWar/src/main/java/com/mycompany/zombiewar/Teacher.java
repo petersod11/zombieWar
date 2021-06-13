@@ -1,6 +1,6 @@
 
 package com.mycompany.zombiewar;
-
+//Teacher unit in survivor class
 public class Teacher extends Survivor{
     public static int count = 0;
     
