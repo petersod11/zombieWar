@@ -1,10 +1,7 @@
 
 package com.mycompany.zombiewar;
 
-/**
- *
- * @author shado
- */
+//Creates New ZOmbie unit pulling from zombie class
 public abstract class Zombie {
     private int health;
     private int damage;
