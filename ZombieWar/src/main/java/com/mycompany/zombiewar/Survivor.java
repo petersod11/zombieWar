@@ -1,10 +1,6 @@
 
 package com.mycompany.zombiewar;
-
-/**
- *
- * @author shado
- */
+//Class creating Survivor and implementing objects of child, teacher, soldier
 public abstract class Survivor {
     
     private int health;
