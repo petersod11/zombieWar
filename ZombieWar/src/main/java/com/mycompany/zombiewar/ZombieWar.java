@@ -1,4 +1,7 @@
 //Derik Peterson
+//Chris Russell
+//Joshua Sells
+//Joshua Sibert
 //CSC422
 //Zombie War Project
 package com.mycompany.zombiewar;
