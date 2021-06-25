@@ -62,4 +62,8 @@ public class Weapon {
     public String getName() {
         return name;
     }
+
+    public int getDamage() {
+        return damage;
+    }
 }
