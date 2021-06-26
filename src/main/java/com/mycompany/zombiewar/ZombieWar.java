@@ -68,14 +68,18 @@ public class ZombieWar {
     
     private static void war() {
     	for (Survivor survivor: survivorList){
-            int damage = survivor.getDamage();
+            int damage;
             
             for (int i =0; i<zombieList.size();i++){
                 Zombie z = zombieList.get(i);
+                if (survivor.getWeapon().isTrueShot()) {
+                    damage = survivor.getDamage();
+                } else {
+                    damage = 0;
+                }
                 z.setHealth(z.getHealth()-damage);
-                
                 if(z.getHealth() <= 0){
-                    System.out.println(survivor.getName() + " " + " killed " + z.getName());
+                    System.out.println(survivor.getName() + " " + " killed " + z.getName() + " using " + survivor.getWeaponName());
                     zombieList.remove(i);
                 }
                 if (zombieList.isEmpty()){

@@ -1,23 +1,29 @@
 public abstract class Survivor {
     
     private int health;
-    private int damage;
+    private Weapon weapon;
     private String name;
     
     Survivor(){}
     
-    Survivor(int health, int damage){}
+    Survivor(int health){}
       public int getHealth(){
           return health;
       }
       public void setHealth(int health){
           this.health = health;
       }
-      int getDamage(){
-          return this.damage;
+      public int getDamage(){
+          return this.weapon.getDamage();
       }
-      public void setDamage(int damage){
-          this.damage = damage;
+      public void pickUpWeapon() {
+          this.weapon = new Weapon();
+      }
+      public String getWeaponName() {
+          return this.weapon.getName();
+      }
+      public Weapon getWeapon() {
+          return this.weapon;
       }
       public String getName(){
           return name;

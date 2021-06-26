@@ -4,6 +4,6 @@ public class Soldier extends Survivor {
     public Soldier (){
         setName("Soldier " + count++);
         setHealth(100);
-        setDamage(10);
+        pickUpWeapon();
     }
 }
